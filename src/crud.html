@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="crud.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+  </head>
+  <body>
+    <div class="row">
+      <div class="col col-1">
+        <div class="mainWrapper">
+                <br>
+                <h1>CRUD File!</h1>
+                <p>you can create,read,update and delete your file here</p>
+                <p>CREATE YOUR MEAL PLANNER HERE!</p><br><br>
+
+                <form>
+                  <div class="form-group">
+                    <label>File name</label><br><br>
+                    <div class="search-bar">
+                      <input id="fileName" type="text" class="form-control">
+                    </div>
+                    <br>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Content</label><br><br>
+                    <div class="search-bar">
+                      <textarea id="fileContents" class="form-control" rows="5"></textarea>
+                    </div>
+                    <br><br>
+                    
+
+                  </div>
+                </form>
+                <button id="btnCreate" class="btn">Create</button>
+                <button id="btnRead" class="btn">Read</button>
+                <button id="btnUpdate" class="btn">Update</button>
+                <button id="btnDelete" class="btn">Delete</button> 
+                <br>
+                <a href="index.html"><button class="btn">back</button></a>
+                
+      </div>
+        <br> 
+    </div>
+      
+    </div>
+
+    <script src="main.js">
+      
+      
+    </script>
+  </body>
+</html>
